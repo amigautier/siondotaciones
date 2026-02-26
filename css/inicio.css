@@ -129,11 +129,18 @@
   width: 100%;
   height: 80vh;
   filter: brightness(50%);
+
+  overflow: hidden; /* Asegura que lo que sobre no se vea */
+  
+  /* Centrado mágico con Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .banner .contimgbanner .videobanner {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
   background-color: black;
 }

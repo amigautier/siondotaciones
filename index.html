@@ -38,7 +38,6 @@
 
 <body>
 
-    
     <!--Header-->
     <div>
         <div id="header-placeholder"></div>
@@ -66,10 +65,24 @@
             <div class="degradado_slider"></div>
 
             <div class="slider">
-                <img src="images/slide/slide_1.jpg" alt="" class="active">
-                <img src="images/slide/slide_2.jpg" alt="">
-                <img src="images/slide/slide_3.jpg" alt="">
-                <img src="images/slide/slide_4.jpg" alt="">
+                <picture>
+                    <source srcset="images/slide/slide_1_mobile.jpg" media="(max-width: 768px)">
+                    <img src="images/slide/slide_1.jpg" alt="" class="active">
+                </picture>
+                <picture>
+                    <source srcset="images/slide/slide_2_mobile.jpg" media="(max-width: 768px)">
+                    <img src="images/slide/slide_2.jpg" alt="">
+                </picture>
+                <picture>
+                    <source srcset="images/slide/slide_3_mobile.jpg" media="(max-width: 768px)">
+                    <img src="images/slide/slide_3.jpg" alt="">
+                </picture>
+                <picture>
+                    <source srcset="images/slide/slide_4_mobile.jpg" media="(max-width: 768px)">
+                    <img src="images/slide/slide_4.jpg" alt="">
+                </picture>
+                
+                
 
             </div>
 
@@ -158,7 +171,7 @@
 
             <div class="contimgbanner">
                 <video class="videobanner" autoplay muted loop>
-                    <source src="images/video/manometro.mp4" type="video/mp4">
+                    <source src="images/video/bordados.mp4" type="video/mp4">
                 </video>
             </div>
 

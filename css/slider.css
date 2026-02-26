@@ -31,14 +31,14 @@
   overflow: hidden;
 }
 
-.slider-container .slider img {
+.slider-container .slider picture img {
   width: 100%;
   height: 100vh;
   object-fit: cover;
   position: absolute;
 }
 
-.slider-container .slider img:not(.active) {
+.slider-container .slider picture img:not(.active) {
   top: 0;
   left: -100%;
 }
