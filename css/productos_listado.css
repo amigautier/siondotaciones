@@ -2,7 +2,7 @@
 
 /*background*/
 .background_productos {
-  /*background-image: url(../images/productos/dotacion/background1.jpg);
+  /*background-image: url(../images/productos/dotacion/background1.webp);
   background-attachment: fixed;*/
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  background-image: url(../images/productos/dotacion/background1.jpg);
+  background-image: url(../images/productos/dotacion/background1.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  background-image: url(../images/productos/proteccion/background1.jpg);
+  background-image: url(../images/productos/proteccion/background1.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  background-image: url(../images/productos/extintores/background1.jpg);
+  background-image: url(../images/productos/extintores/background1.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -62,7 +62,7 @@
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  background-image: url(../images/productos/bordados/background1.jpg);
+  background-image: url(../images/productos/bordados/background1.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,22 +114,22 @@
 /*Arreglo galeria Productos*/
 .background_categorias_dotacion {
   background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.2)),
-    url(../images/productos/dotacion/background_productos_dotacion.jpg);
+    url(../images/productos/dotacion/background_productos_dotacion.webp);
 }
 
 .background_categorias_proteccion {
   background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.2)),
-    url(../images/productos/proteccion/background_productos_proteccion.jpg);
+    url(../images/productos/proteccion/background_productos_proteccion.webp);
 }
 
 .background_categorias_extintores {
   background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.2)),
-    url(../images/productos/extintores/background_productos_extintores.jpg);
+    url(../images/productos/extintores/background_productos_extintores.webp);
 }
 
 .background_categorias_bordados {
   background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.2)),
-    url(../images/productos/bordados/background_productos_bordados.jpg);
+    url(../images/productos/bordados/background_productos_bordados.webp);
 }
 
 .categorias_productos .background_categorias .contenedor_categorias {
@@ -210,20 +210,20 @@
   }
   
   .background_productos {
-    background-image: url(../images/productos/dotacion/background.jpg);
+    background-image: url(../images/productos/dotacion/background.webp);
     background-attachment: fixed;
   }
 
   .background_proteccion {
-    background-image: url(../images/productos/proteccion/background.jpg);
+    background-image: url(../images/productos/proteccion/background.webp);
   }
 
   .background_extintores {
-    background-image: url(../images/productos/extintores/background.jpg);
+    background-image: url(../images/productos/extintores/background.webp);
   }
 
   .background_bordados {
-    background-image: url(../images/productos/bordados/background.jpg);
+    background-image: url(../images/productos/bordados/background.webp);
   }
   
   /*texto Background*/
