@@ -117,3 +117,8 @@ window.addEventListener("scroll", function () {
     header.classList.toggle("headerscroll", window.scrollY > 0);
 });
 // La función initializeMenuLogic() se llama desde includes.js
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.getElementById("contenedormenu")) {
+        initializeMenuLogic();
+    }
+});
