@@ -285,8 +285,9 @@ header .menu .mega-menu-column-4 .mega-menu-images {
 }
 
 /*Background contenedor megamenu*/
-header .menu .mega-menu-column-4 .mega-menu-images_one {
-  background-image: url(../images/header/dotacion/header-fondo.jpg);
+@media (min-width: 1051px) {
+  header .menu .mega-menu-column-4 .mega-menu-images_one {
+  background-image: url(../images/header/dotacion/header-fondo.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -294,7 +295,7 @@ header .menu .mega-menu-column-4 .mega-menu-images_one {
 }
 
 header .menu .mega-menu-column-4 .mega-menu-images_two {
-  background-image: url(../images/header/proteccion/header-fondo.jpg);
+  background-image: url(../images/header/proteccion/header-fondo.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -302,19 +303,13 @@ header .menu .mega-menu-column-4 .mega-menu-images_two {
 }
 
 header .menu .mega-menu-column-4 .mega-menu-images_three {
-  background-image: url(../images/header/extintores/header-fondo.jpg);
+  background-image: url(../images/header/extintores/header-fondo.webp);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position-y: 20%;
 }
 
-header .menu .mega-menu-column-4 .mega-menu-images_four {
-  background-image: url(../images/header/primeros_auxilios/header-fondo.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position-y: 20%;
 }
 
 /*Titulo contenedor de imagenes dentro de submenu*/
@@ -457,6 +452,10 @@ header .container_header .v-center .item-center .menu {
 /*Modo dispositivo*/
 
 @media (max-width: 1050px) {
+  header .menu .mega-menu-column-4 .mega-menu-images {
+    display: none !important; 
+  }
+
   body.noscroll {
     overflow: hidden;
   }
