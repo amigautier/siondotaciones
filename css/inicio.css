@@ -236,6 +236,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 30px;
+  z-index: 0;
 }
 
 .collage .background_collage .texto_collage .titulo_1 {
