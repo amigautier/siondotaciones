@@ -128,7 +128,7 @@
 .banner .contimgbanner {
   width: 100%;
   height: 80vh;
-  /*filter: brightness(50%);*/
+  filter: brightness(50%);
 
   overflow: hidden; /* Asegura que lo que sobre no se vea */
   
