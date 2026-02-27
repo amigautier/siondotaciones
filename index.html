@@ -21,9 +21,6 @@
     <meta name="author" content="Ami Gautier" />
 
     <!--Links-->
-    <!--Precargar header-->
-    <link rel="preload" as="image" href="images/logotipo.webp" fetchpriority="high">
-    <link rel="preload" href="header.html" as="fetch" crossorigin>
     <!--Estilos Css-->
     <link rel="stylesheet" href="css/estilos.css">
     <!--Script efecto scroll-->
@@ -42,9 +39,331 @@
 <body>
 
     <!--Header-->
-    <div>
-        <div id="header-placeholder"></div>
-    </div>
+    <header>
+
+        <div class="container_header">
+            <div class="row v-center">
+                <!--Logotype-->
+                <div class="header-item item-left">
+                    <div class="logotipo">
+                        <a href="index"><img src="images/logotipo/logotipo.webp" alt="Logotipo Sion" /></a>
+                    </div>
+                </div>
+
+                <!-- menu start here -->
+
+                <div class="header-item item-center">
+                    <nav class="menu">
+                        <div class="mobile-menu-head">
+                            <div class="go-back">
+                                <ion-icon name="chevron-back-outline"></ion-icon>
+                            </div>
+                            <div class="current-menu-title"></div>
+                            <div class="mobile-menu-close"></div>
+                        </div>
+                        <ul class="menu-main">
+                            <div class="empty_space">
+                                <div class="border_empty_space"></div>
+                            </div>
+
+                            <li class="menu-item-has-children" data-page="dotacion">
+                                <a href="dotacion">DOTACIÓN
+                                    <i><ion-icon name="chevron-forward-outline"></ion-icon></i></a>
+
+                                <div class="sub-menu mega-menu mega-menu-column-4">
+                                    <div class="mega-menu-images mega-menu-images_one">
+                                        <a href="dotacion">
+                                            <div class="mega-menu-images-title">
+                                                <p>Chequear</p>
+                                            </div>
+                                        </a>
+
+                                        <div class="mega-menu-images-content">
+                                            <a href="dotacion">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/dotacion/header_1.webp"
+                                                        alt="Fotografía dotación jean" loading="lazy" />
+                                                </div>
+                                            </a>
+                                            <a href="dotacion">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/dotacion/header_2.webp"
+                                                        alt="Fotografía dotación jean" loading="lazy" />
+                                                </div>
+                                            </a>
+                                            <a href="dotacion">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/dotacion/header_3.webp"
+                                                        alt="Fotografía dotación jean" loading="lazy" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="list-item">
+                                        <h4 class="title">DOTACIÓN</h4>
+                                        <ul>
+                                            <p>
+                                                Nos especializamos en la manufacturación de ropa de dotación diseñada
+                                                para garantizar la comodidad, durabilidad y profesionalismo de su
+                                                equipo. Con un enfoque en la excelencia, empleamos materiales de primera
+                                                calidad y procesos de fabricación precisos para ofrecer soluciones que
+                                                se adaptan a las necesidades específicas de cada industria. <br> <br>
+
+                                                Nuestra línea de productos incluye uniformes, ropa de trabajo y
+                                                vestimenta corporativa personalizada, pensada para reforzar la identidad
+                                                de su empresa y asegurar la máxima funcionalidad en el entorno laboral.
+                                                Comprometidos con la innovación y el detalle, trabajamos para
+                                                proporcionar una vestimenta que no solo cumple con los más altos
+                                                estándares, sino que también promueve el bienestar y la productividad de
+                                                su personal.
+                                            </p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="menu-item-has-children" data-page="extintores">
+                                <a href="extintores">EXTINTORES
+                                    <i><ion-icon name="chevron-forward-outline"></ion-icon></i></a>
+
+                                <div class="sub-menu mega-menu mega-menu-column-4">
+                                    <div class="mega-menu-images mega-menu-images_three">
+                                        <a href="extintores">
+                                            <div class="mega-menu-images-title">
+                                                <p>Chequear</p>
+                                            </div>
+                                        </a>
+
+                                        <div class="mega-menu-images-content">
+                                            <a href="extintores">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/extintores/header-1.webp"
+                                                        alt="Fotografía extintores" loading="lazy" />
+                                                </div>
+                                            </a>
+                                            <a href="extintores">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/extintores/header-2.webp"
+                                                        alt="Fotografía extintores" loading="lazy" />
+                                                </div>
+                                            </a>
+                                            <a href="extintores">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/extintores/header-3.webp"
+                                                        alt="Fotografía extintores" loading="lazy" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="list-item">
+                                        <h4 class="title">EXTINTORES</h4>
+                                        <ul>
+                                            <p>
+                                                Nuestros extintores son el resultado de una ingeniería rigurosa,
+                                                diseñada para garantizar una respuesta rápida y efectiva en situaciones
+                                                de emergencia. Fabricados con materiales de la más alta calidad, cada
+                                                unidad está optimizada para cumplir con los estándares internacionales
+                                                más exigentes, asegurando una fiabilidad y durabilidad excepcionales.
+                                                <br><br>
+
+                                                El rendimiento de nuestros extintores es incuestionable, proporcionando
+                                                seguridad y protección constante cuando más se necesita. La calidad de
+                                                su construcción y su facilidad de uso los convierten en una elección
+                                                imprescindible para cualquier entorno que requiera medidas de protección
+                                                contra incendios.
+                                            </p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="menu-item-has-children" data-page="proteccion">
+                                <a href="proteccion">PROTECCIÓN
+                                    <i><ion-icon name="chevron-forward-outline"></ion-icon></i></a>
+
+                                <div class="sub-menu mega-menu mega-menu-column-4">
+                                    <div class="mega-menu-images mega-menu-images_two">
+                                        <a href="proteccion">
+                                            <div class="mega-menu-images-title">
+                                                <p>Chequear</p>
+                                            </div>
+                                        </a>
+
+                                        <div class="mega-menu-images-content">
+                                            <a href="proteccion">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/proteccion/header-1.webp"
+                                                        alt="Fotografía elementos de protección" loading="lazy" />
+                                                </div>
+                                            </a>
+                                            <a href="proteccion">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/proteccion/header-2.webp"
+                                                        alt="Fotografía elementos de protección" loading="lazy" />
+                                                </div>
+                                            </a>
+                                            <a href="proteccion">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/proteccion/header-3.webp"
+                                                        alt="Fotografía elementos de protección" loading="lazy" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="list-item">
+                                        <h4 class="title">PROTECCIÓN</h4>
+                                        <ul>
+                                            <p>
+                                                Nuestros productos están diseñados con la más avanzada tecnología para
+                                                ofrecer una protección eficaz contra riesgos laborales en una amplia
+                                                variedad de entornos. Desde cascos y guantes hasta protección ocular y
+                                                auditiva, cada componente ha sido meticulosamente seleccionado y
+                                                fabricado, garantizando su fiabilidad en situaciones críticas. <br> <br>
+
+                                                Cumpliendo con las normativas internacionales más estrictas, nuestros
+                                                elementos de protección brindan confianza y tranquilidad, permitiendo
+                                                que su equipo se enfoque en su trabajo con la certeza de que están
+                                                protegidos en todo momento.
+                                            </p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="menu-item-has-children" data-page="bordados">
+                                <a href="bordados">BORDADOS
+                                    <i><ion-icon name="chevron-forward-outline"></ion-icon></i></a>
+
+                                <div class="sub-menu mega-menu mega-menu-column-4">
+                                    <div class="mega-menu-images mega-menu-images_three">
+                                        <a href="bordados">
+                                            <div class="mega-menu-images-title">
+                                                <p>Chequear</p>
+                                            </div>
+                                        </a>
+
+                                        <div class="mega-menu-images-content">
+                                            <a href="bordados">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/bordados/header-1.webp"
+                                                        alt="Fotografía de bordados" loading="lazy" />
+                                                </div>
+                                            </a>
+                                            <a href="bordados">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/bordados/header-2.webp"
+                                                        alt="Fotografía de bordados" loading="lazy" />
+                                                </div>
+                                            </a>
+                                            <a href="bordados">
+                                                <div class="list-item_img">
+                                                    <img src="images/header/bordados/header-3.webp"
+                                                        alt="Fotografía de bordados" loading="lazy" />
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="list-item">
+                                        <h4 class="title">BORDADOS</h4>
+                                        <ul>
+                                            <p>
+                                                El arte del bordado es una herramienta clave para
+                                                reforzar la identidad de su empresa mientras se asegura de que su equipo
+                                                luzca profesional y cohesionado. Con una precisión excepcional y
+                                                atención al detalle, nuestros servicios de bordado están diseñados para
+                                                ofrecer un acabado duradero y de alta calidad, incluso en los entornos
+                                                laborales más exigentes. <br> <br>
+
+                                                Utilizando maquinaria de última tecnología y hilos de alta resistencia,
+                                                garantizamos que cada bordado mantenga su integridad con el tiempo,
+                                                resistiendo el desgaste y las condiciones más severas. Ofrecemos una
+                                                amplia gama de diseños y opciones de personalización, adaptándonos a las
+                                                necesidades específicas de su empresa y asegurando que su marca se
+                                                destaque.
+                                            </p>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="menu-item-has-children" data-page="about">
+                                <a href="about">HISTORIA
+                                    <i><ion-icon name="chevron-forward-outline"></ion-icon></i></a>
+                            </li>
+
+                            <li class="menu-item-has-children" data-page="contacto">
+                                <a href="contacto">CONTACTO
+                                    <i><ion-icon name="chevron-forward-outline"></ion-icon></i></a>
+                            </li>
+
+                            <div class="empty_space">
+                                <div class="border_empty_space2"></div>
+                            </div>
+
+                            <div class="contenedor_redes_sociales">
+                                <div class="redes_sociales">
+                                    <a href="https://wa.me/573102892293" target="blank">
+                                        <ion-icon name="logo-whatsapp" class="icon_ion_redes"></ion-icon>
+                                        <!-- <p>WhatsApp</p> -->
+                                    </a>
+
+                                    <a href="mailto:comersionmh@gmail.com" target="blank">
+                                        <ion-icon name="mail-outline" class="icon_ion_redes"></ion-icon>
+                                        <!-- <p>Email</p> -->
+                                    </a>
+
+                                    <a href="http://www.instagram.com/" target="blank">
+                                        <ion-icon name="logo-instagram" class="icon_ion_redes"></ion-icon>
+                                        <!-- <p>Instagram</p> -->
+                                    </a>
+
+                                </div>
+                            </div>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- menu end here -->
+
+                <!--Menu right-->
+
+                <div class="header-item item-right">
+                    <a href="mailto:comersionmh@gmail.com" target="blank" class="email_link"><ion-icon class="email"
+                            name="mail-outline"></ion-icon>
+                    </a>
+
+                    <div class="textohover_email">
+                        <p>Escribenos por Email</p>
+                    </div>
+
+                    <a href="https://wa.me/573102892293" target="blank" class="telefono">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <p>+57 310 289 22 93</p>
+                    </a>
+
+                    <div class="textohover_whatsapp">
+                        <p>Escribenos por WhatsApp</p>
+                    </div>
+
+                    <!-- mobile menu trigger -->
+                    <div class="mobile-menu-trigger">
+                        <span>
+                            <i>
+                                <div class="contenedormenu" id="contenedormenu" onclick="myFunction(this)">
+                                    <div class="linea-1"></div>
+                                    <div class="linea-2"></div>
+                                    <div class="linea-3"></div>
+                                </div>
+                            </i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <!--Main-->
     <main>
@@ -70,11 +389,13 @@
             <div class="slider">
                 <picture>
                     <source srcset="images/slide/slide_1_mobile.webp" media="(max-width: 768px)">
-                    <img src="images/slide/slide_1.webp" alt="Pareja en un camioneta de color gris" class="active" fetchpriority="high">
+                    <img src="images/slide/slide_1.webp" alt="Pareja en un camioneta de color gris" class="active"
+                        fetchpriority="high">
                 </picture>
                 <picture>
                     <source srcset="images/slide/slide_2_mobile.webp" media="(max-width: 768px)">
-                    <img src="images/slide/slide_2.webp" alt="Pareja posando afuera de una camioneta color gris" loading="lazy">
+                    <img src="images/slide/slide_2.webp" alt="Pareja posando afuera de una camioneta color gris"
+                        loading="lazy">
                 </picture>
                 <picture>
                     <source srcset="images/slide/slide_3_mobile.webp" media="(max-width: 768px)">
@@ -82,7 +403,8 @@
                 </picture>
                 <picture>
                     <source srcset="images/slide/slide_4_mobile.webp" media="(max-width: 768px)">
-                    <img src="images/slide/slide_4.webp" alt="Pareja en la puerta de una camioneta mirando hacia el horizonte" loading="lazy">
+                    <img src="images/slide/slide_4.webp"
+                        alt="Pareja en la puerta de una camioneta mirando hacia el horizonte" loading="lazy">
                 </picture>
 
             </div>
@@ -126,7 +448,8 @@
 
                             <div class="imagenes_categorias">
 
-                                <img src="images/categorias/categoria_1.webp" alt="Mujer posando un jean de dotación" loading="lazy">
+                                <img src="images/categorias/categoria_1.webp" alt="Mujer posando un jean de dotación"
+                                    loading="lazy">
                                 <p>DOTACIÓN</p>
 
                             </div>
@@ -135,7 +458,8 @@
                         <a href="extintores">
                             <div class="imagenes_categorias">
 
-                                <img src="images/categorias/categoria_4.webp" alt="Extintor blanco Solkaflam 123" loading="lazy">
+                                <img src="images/categorias/categoria_4.webp" alt="Extintor blanco Solkaflam 123"
+                                    loading="lazy">
                                 <p>EXTINTORES</p>
 
                             </div>
@@ -144,7 +468,8 @@
                         <a href="proteccion">
                             <div class="imagenes_categorias">
 
-                                <img src="images/categorias/categoria_2.webp" alt="Respirador de elemento de protección M3" loading="lazy">
+                                <img src="images/categorias/categoria_2.webp"
+                                    alt="Respirador de elemento de protección M3" loading="lazy">
                                 <p>ELEMENTOS DE PROTECCIÓN</p>
 
                             </div>
@@ -153,7 +478,8 @@
                         <a href="bordados">
                             <div class="imagenes_categorias">
 
-                                <img src="images/categorias/categoria_3.webp" alt="Maquina de bordados industriales" loading="lazy">
+                                <img src="images/categorias/categoria_3.webp" alt="Maquina de bordados industriales"
+                                    loading="lazy">
                                 <p>BORDADOS</p>
 
                             </div>
@@ -171,7 +497,7 @@
         <section class="banner">
 
             <div class="contimgbanner">
-                <video class="videobanner" autoplay muted loop playsinline preload="auto" poster="images/video/portada-video.webp">
+                <video class="videobanner" autoplay muted loop poster="images/video/portada-video.webp">
                     <source src="images/video/bordados.mp4" type="video/mp4">
                     Tu navegador no soporta videos.
                 </video>
